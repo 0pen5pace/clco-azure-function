@@ -41,7 +41,7 @@ jobs:
         with:
           name: python-app
           path: |
-            . 
+            GetQoute 
             !venv/
 
   deploy:

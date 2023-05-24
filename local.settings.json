@@ -2,10 +2,10 @@
 {
     "IsEncrypted": false,
     "Values": {
-    "AzureWebJobsStorage": "",
-    "FUNCTIONS_WORKER_RUNTIME": "python"
+        "AzureWebJobsStorage": "",
+        "FUNCTIONS_WORKER_RUNTIME": "python"
     },
     "ConnectionStrings": {
-    "AzureCosmosDBConnectionString": "AccountEndpoint=https://clco-comos-nosql-account.documents.azure.com:443/;AccountKey=saYx0u52l57hcXblcAMuJWasd7mAIa1jyIaEAmwfsV2Z3byjy4STGulCtY1GqVAqVTCM3Kzn4qZCACDbkGhYZg==;"
+        "AzureCosmosDBConnectionString": "AccountEndpoint=https://clco-comos-nosql-account.documents.azure.com:443/;AccountKey=saYx0u52l57hcXblcAMuJWasd7mAIa1jyIaEAmwfsV2Z3byjy4STGulCtY1GqVAqVTCM3Kzn4qZCACDbkGhYZg==;"
     }
 }
