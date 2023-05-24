@@ -1,0 +1,30 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+      {
+        "authLevel": "anonymous",
+        "type": "httpTrigger",
+        "direction": "in",
+        "name": "req",
+        "methods": [
+          "get"
+        ],
+        "route": "qoute/list"
+      },
+      {
+        "type": "cosmosDB",
+        "direction": "in",
+        "name": "doc",
+        "databaseName": "qoutes-db",
+        "collectionName": "qoutes",
+        "createIfNotExists": "true",
+        "connectionStringSetting": "AzureCosmosDBConnectionString",
+        "sqlQuery": "SELECT * from c"
+      },
+      {
+        "type": "http",
+        "direction": "out",
+        "name": "$return"
+      }
+    ]
+  }
